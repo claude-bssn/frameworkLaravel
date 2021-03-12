@@ -1,7 +1,5 @@
 @extends('Layouts/layout')
 @section('css')
-    <link rel="stylesheet" href="">
-@endsection
 @section('Détail Perso')
 
 @section('content') 
@@ -18,7 +16,7 @@
         <h3>Description</h3>
         <p>{{$character->description}}</p>
        
-        <a href="/modify/{{$character->id}}">Modifier</a>
+        <a class='button' href="/modify/{{$character->id}}">Modifier</a>
     </div>
     
     @endsection

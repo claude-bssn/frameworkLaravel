@@ -19,7 +19,7 @@
         @endforeach
         <h3>Description</h3>
         <p>{{$drawer->description}}</p>
-        <a href="/modifyDrawer/{{$drawer->id}}">Modifier</a>
+        <a class='button' href="/modifyDrawer/{{$drawer->id}}">Modifier</a>
     </div>
     
     @endsection
